@@ -1,0 +1,28 @@
+
+# Local SQLite databases and backups
+todo.db
+todo.db-*
+todo_backup.db
+*.sqlite
+*.sqlite3
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm and IDE settings
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
