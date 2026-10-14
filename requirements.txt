@@ -1,0 +1,4 @@
+
+# TaskFlow uses Python standard-library modules.
+# Tkinter and sqlite3 are included with a suitable Python installation.
+# No third-party packages are required.
