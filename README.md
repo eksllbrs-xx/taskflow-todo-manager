@@ -24,21 +24,6 @@ A desktop task management application built with **Python, Tkinter, and SQLite**
 | SQL | Data retrieval and CRUD operations |
 | Git and GitHub | Version control and project hosting |
 
-## Application Screenshots
-
-Add your own screenshots to the `screenshots/` directory and update the image links below.
-
-### Main Dashboard
-![TaskFlow dashboard](screenshots/dashboard.png)
-
-### Task Management
-![TaskFlow task management](screenshots/task-management.png)
-
-### Search and Filtering
-![TaskFlow search and filtering](screenshots/search-filter.png)
-
-### Summary Dashboard
-![TaskFlow summary dashboard](screenshots/summary-dashboard.png)
 
 ## Requirements
 
@@ -53,11 +38,11 @@ SQLite is accessed through Python's built-in `sqlite3` module.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/taskflow-todo-manager.git
+git clone https://github.com/eksllbrs-xx/taskflow-todo-manager.git
 cd taskflow-todo-manager
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username.
+
 
 ### 2. Open the project in PyCharm
 
@@ -146,7 +131,7 @@ This project is intended for educational and portfolio use. Add a license file i
 
 ---
 
-**Author:** YOUR NAME
+**Author:** ERIKA LLABRE
 
 **Project:** TaskFlow — To-Do List Manager
 
