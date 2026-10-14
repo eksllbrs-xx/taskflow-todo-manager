@@ -10,15 +10,15 @@ todo_backup.db
 __pycache__/
 *.py[cod]
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 
 # PyCharm settings
 .idea/
 
-# Test files
-.pytest_cache/S
+# Test output
+.pytest_cache/
 .coverage
 htmlcov/
 

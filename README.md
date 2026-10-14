@@ -1,3 +1,4 @@
+
 # TaskFlow — To-Do List Manager
 
 A desktop task management application built with Python, Tkinter, and SQLite.
@@ -5,36 +6,35 @@ A desktop task management application built with Python, Tkinter, and SQLite.
 ## Features
 
 - Create, view, edit, complete, and delete tasks.
-- Store tasks persistently using SQLite.
+- Persist tasks using SQLite.
 - Assign due dates and detect overdue tasks.
 - Set High, Medium, or Low priorities.
 - Organize tasks by category.
-- Search and filter tasks.
-- View dashboard statistics and completion rates.
-- Automatically migrate supported existing database schemas.
+- Search and filter by title, status, priority, and category.
+- View task summary statistics and completion rates.
+- Migrate supported existing database schemas safely.
 
-## Technologies
+## Technology Stack
 
 - Python
 - Tkinter and ttk
-- SQLite
-- SQL
+- SQLite and SQL
 - Git and GitHub
 
 ## Requirements
 
 - Python 3.10 or newer recommended.
-- A Python installation with Tkinter support.
-- No third-party Python packages required.
+- Tkinter support in your Python installation.
+- No third-party packages required.
 
 ## How to Run
 
 1. Clone or download this repository.
-2. Open the project folder in PyCharm.
+2. Open the project in PyCharm.
 3. Select a compatible Python interpreter.
 4. Run `main.py`.
 
-The application creates `todo.db` beside `main.py` if the database does not exist.
+The application creates `todo.db` next to `main.py` when needed.
 
 ## Project Structure
 
@@ -49,15 +49,11 @@ to-do-list-manager/
 
 ## Testing
 
-Verify task creation, editing, completion, deletion, search, filtering, overdue detection, dashboard calculations, and persistence after restarting the application.
+Manually verify CRUD operations, dates, priorities, categories, search, filtering, dashboard calculations, and persistence after restarting.
 
 ## Future Improvements
 
-- Automated unit tests
+- Automated tests
 - CSV export
 - Additional dashboard visualizations
 - Windows executable packaging
-
-## Author
-
-ERIKA LLABRES
