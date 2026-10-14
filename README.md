@@ -1,59 +1,67 @@
+# TaskFlow — Desktop Task Manager
 
-# TaskFlow — To-Do List Manager
-
-A desktop task management application built with Python, Tkinter, and SQLite.
+TaskFlow is a desktop task management application developed using Python, Tkinter, and SQLite. It helps users organize tasks, manage priorities, track completion status, and filter tasks through a graphical user interface.
 
 ## Features
 
-- Create, view, edit, complete, and delete tasks.
-- Persist tasks using SQLite.
-- Assign due dates and detect overdue tasks.
-- Set High, Medium, or Low priorities.
-- Organize tasks by category.
-- Search and filter by title, status, priority, and category.
-- View task summary statistics and completion rates.
-- Migrate supported existing database schemas safely.
+- **Task Management:** Create, view, edit, and delete tasks.
+- **Task Status:** Mark tasks as completed.
+- **Priority Management:** Organize tasks by priority.
+- **Categories:** Group tasks by category.
+- **Search and Filtering:** Find tasks and filter the task list.
+- **Due Dates:** Set deadlines for tasks.
+- **Dashboard:** View task summaries and statistics.
+- **Persistent Storage:** Store task records in an SQLite database.
 
-## Technology Stack
+## Technologies Used
 
 - Python
-- Tkinter and ttk
-- SQLite and SQL
-- Git and GitHub
+- Tkinter — graphical user interface
+- SQLite — database storage
+- Git and GitHub — version control and project hosting
 
 ## Requirements
 
-- Python 3.10 or newer recommended.
-- Tkinter support in your Python installation.
-- No third-party packages required.
+- Python 3.10 or later recommended
+- Tkinter support
+- SQLite support (included with standard Python installations)
 
-## How to Run
+## Installation and Usage
 
-1. Clone or download this repository.
-2. Open the project in PyCharm.
-3. Select a compatible Python interpreter.
-4. Run `main.py`.
+1. Clone the repository:
 
-The application creates `todo.db` next to `main.py` when needed.
+   ```bash
+   git clone https://github.com/eksllbrs-xx/taskflow-todo-manager.git
+   ```
 
-## Project Structure
+2. Open the project folder:
 
-```text
-to-do-list-manager/
-├── main.py
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── screenshots/
-```
+   ```bash
+   cd taskflow-todo-manager
+   ```
 
-## Testing
+3. Run the application:
 
-Manually verify CRUD operations, dates, priorities, categories, search, filtering, dashboard calculations, and persistence after restarting.
+   ```bash
+   python main.py
+   ```
 
-## Future Improvements
+No external Python packages are required if the application uses only the standard library.
 
-- Automated tests
-- CSV export
-- Additional dashboard visualizations
-- Windows executable packaging
+## Database
+
+TaskFlow uses SQLite to save tasks locally. The database is created or accessed by the application when it runs.
+
+## Project Purpose
+
+This project demonstrates practical skills in Python programming, GUI development, database integration, CRUD operations, and version control.
+
+## Author
+
+**Erika G. Llabres**
+
+GitHub: [eksllbrs-xx](https://github.com/eksllbrs-xx)
+
+---
+
+*TaskFlow is a portfolio project developed for learning and demonstrating software development skills.*
